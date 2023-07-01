@@ -1,0 +1,7 @@
+program FILTER{
+    version FV1{
+        void leer_original()=1;
+        void filtrar_imagen(int) = 2;
+        void escribir_output()=3;
+    }=1;
+}=121356589;
