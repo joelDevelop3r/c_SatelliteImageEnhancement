@@ -15,5 +15,8 @@ Considerations:
 -This code uses Remote Procedure calls instead of RMI on JAVA, but consider that RPC can be applied to many other lenguages
 -What this code makes, is to distribute the filter o 4 diferent machines, everyone make work on 1/4 of the image, so the image must be preload on every machine, only the client does not need it.
 -Check if your five pc have communication between all of them.
+-Do not forget to install the rpc service, in other case it willl never works, in my case I used rpcbind, check with 'systemctl status rpcbind'
+
+
 
 
